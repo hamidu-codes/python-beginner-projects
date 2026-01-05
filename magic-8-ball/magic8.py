@@ -13,9 +13,9 @@ while another_question:
 
 #Ask user to input their yes/no question. Will not proceed until there is a user input.
   question = input("What's your Yes/No question?: ").strip()
-
-#Lesson learned, this code below isn't needed as it will print answer from code below. But as this is a lesson learned, I will put a #.
-#answer =("")
+  
+# 'answer' does not need to be initialised here
+# because it is always set by the conditions below
 
 #Generate number from 1 to 11
   random_number = random.randint(1, 11)
